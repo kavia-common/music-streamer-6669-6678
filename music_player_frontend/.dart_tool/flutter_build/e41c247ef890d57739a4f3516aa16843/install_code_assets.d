@@ -1,0 +1,1 @@
+ /home/kavia/workspace/code-generation/music-streamer-6669-6678/music_player_frontend/.dart_tool/flutter_build/e41c247ef890d57739a4f3516aa16843/native_assets.json: 

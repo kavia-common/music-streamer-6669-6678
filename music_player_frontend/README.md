@@ -1,16 +1,20 @@
 # music_player_frontend
 
-A new Flutter project.
+A modern, minimalistic Flutter music player app.
 
-## Getting Started
+Features:
+- Audio playback controls: play, pause, next, previous
+- Playlist management (sample data, quick play)
+- Song search (by title/artist)
+- Attractive player UI with album art placeholder and track info
+- Persistent mini player
+- Favorites with local persistence (SharedPreferences)
+- Light theme using palette: Primary #1DB954, Secondary #191414, Accent #FFFFFF
 
-This project is a starting point for a Flutter application.
+Run:
+1. flutter pub get
+2. flutter run
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Notes:
+- Audio engine is simulated for demo purposes (no external audio plugin). Playback position advances with a timer.
+- Replace the mock audio with `just_audio` integration easily by wiring its player in `AudioController`.
